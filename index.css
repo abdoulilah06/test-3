@@ -1,0 +1,226 @@
+body{
+    background-color: gray;
+    width: 99%;
+    background-repeat: no-repeat;
+    height: 97.6vh;
+}
+nav{
+    background-color: cadetblue;
+    padding: 30px 25px;
+    border-radius: 10px;
+
+}
+ul{
+    position: absolute;
+    text-align: right;
+    right: 100px;
+    top: 9px;
+    transition: 0.4s;
+
+    
+    
+}
+.icons{
+    background-color: black;
+    top: 450px;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+}
+.insta{
+    display: block;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.insta:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.wtsp:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.face:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.face{
+    display: block;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.wtsp{
+    display: block;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.niv{
+    
+    padding: 10px 20px;
+    background-color: transparent;
+    text-decoration: none;
+    font-size:  16px;
+    color: black;
+    font-weight: 700;
+    font-family: 'Cairo', sans-serif;
+}
+.niv:hover{
+    background-color: black;
+    color: white;
+}
+.logo{
+    width: 55px;
+    position: absolute;
+    top: 10px;
+}
+.menu{
+    position: absolute;
+    width: 40px;
+    top: 19px;
+    right: 40px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.on{
+    display: none;
+    transition: 0.4s;
+    margin-right: 100px;
+
+}
+.active{
+    transform: rotate(90deg);
+    transition: 0.4s;
+}
+.ty{
+    width: 400px;
+    position: absolute;
+    left: 40px;
+}
+p{
+    font-size: 28px;
+    position: absolute;
+    right: 40px;
+    top: 120px;
+    font-family: 'Cairo', sans-serif;
+}
+.tyt{
+    color: blanchedalmond;
+    position: absolute;
+    right: 200px;
+    top: 400px;
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-weight: 800;
+    font-size: 18px;
+    color: black;
+    font-family: 'Cairo', sans-serif;
+    transition: 0.3s;
+    
+}
+.tyt:hover{
+    background-color: rgb(212, 41, 41);
+    color: white;
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+.fin{
+    color: blueviolet;
+    position: absolute;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    bottom: 6px;
+    right: 7px;
+}
+.fin:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:500px){
+    .fin{
+        left: 7px;
+        font-size: 13px;
+        bottom: 0;
+        color: black;
+    }
+    ul{
+        position: absolute;
+        top: 52px;
+        backdrop-filter:blur(7px);
+        background-color: rgba(127, 255, 212, 0.5);
+        border-radius: 10px;
+        width: 100px;
+        height: 190px;
+        right: 8px;
+        flex-direction: column;
+
+    }
+    body{
+        width: auto;
+        height: 97.5vh;
+    }
+    .icons{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top: auto;
+        padding: 5px;
+    }
+    .insta{
+        width: 20px;
+    }
+    .face{
+        width: 20px;
+    }
+    .wtsp{
+        width: 20px;
+    }
+    .niv{
+        background-color: transparent;
+        color: black;
+        padding: 10px;
+        display: flex;
+        
+        
+    }
+    .niv:hover{
+        background-color: white;
+        color: black;
+    }
+    nav{
+        border-radius: 10px;
+    }
+    .logo{
+        width: 55px;
+        left: 10px;
+    }
+    .menu{
+        position: absolute;
+        top: 19px;
+        right: 20px;
+
+    }
+    .ty{
+        width: 130px;
+        position: relative;
+        top: 60px;
+        left: 10px;
+    }
+    p{
+        font-size: 12px;
+        font-weight: 800;
+        left: 0;
+        position: relative;
+    }
+    .tyt{
+        left: 10px;
+        top: 130px;
+        color: white;
+        background-color: rgb(207, 44, 44);
+        position: relative;
+        font-size: 10px;
+    }
+}
